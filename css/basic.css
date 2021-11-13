@@ -10491,8 +10491,26 @@ a.text-dark:hover {
 }
 
 .crop {
-	height:160px;
 	overflow:hidden;
+}
+
+
+@media (min-width:768px) {
+    .crop {
+        height:95px;
+    }
+}
+
+@media (min-width:992px) {
+    .crop {
+        height:126px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .crop {
+        height:160px;
+    }
 }
 
 .crop img{
