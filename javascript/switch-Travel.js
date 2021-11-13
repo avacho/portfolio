@@ -53,7 +53,7 @@ window.onload=function()
 	var describe=document.getElementById("ptext");
 	//設定提醒文字
 	//pbq.innerHTML="共有"+imgarr.length+"張圖片,當前第"+(index+1)+"張";
-	describe.innerHTML="Fukui, Japan, 2012_01";
+	describe.innerHTML=photext[0];
 	//繫結事件
 	bt1.onclick=function()
 	{
