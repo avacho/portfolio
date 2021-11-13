@@ -27,12 +27,12 @@ window.onload=function()
 	"../assets/image/Travel/Tongxiang, Zhejiang, China, 2012.JPG"
 	];
 	//建立圖片描述陣列
-	var photext=["Fukui, Japan, 2012_01",
-	"Fukui, Japan, 2012_02",
+	var photext=["Fukui, Japan, 2012",
+	"Fukui, Japan, 2012",
 	"Beijing, China, 2013",
-	"Guangzhou, China, 2012_01",
-	"Guangzhou, China, 2012_02",
-	"Guangzhou, China, 2012_03",
+	"Guangzhou, China, 2012",
+	"Guangzhou, China, 2012",
+	"Guangzhou, China, 2012",
 	"Hangzhou, Zhejiang, China, 2011",
 	"Jinhua, Zhejiang, China, 2011",
 	"Lamma Island, Hong Kong, 2015",
