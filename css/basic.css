@@ -572,8 +572,8 @@ pre code {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 16px;
+    padding-left: 16px;
     margin-right: auto;
     margin-left: auto
 }
@@ -4279,7 +4279,6 @@ input[type=submit].btn-block {
 .nav-link:focus,
 .nav-link:hover {
     color:#E40065;
-	border-bottom:1px solid #E40065;
 }
 
 .nav-link.disabled {
@@ -4333,7 +4332,6 @@ input[type=submit].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #E40065;
-    border-bottom:1px solid #E40065;
 	background-color:transparent;
 }
 
@@ -10523,33 +10521,33 @@ a.text-dark:hover {
 
 .photo{
 	width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 48px;
+    padding-left: 48px;
     margin-right: auto;
     margin-left: auto
 }
 
 @media (min-width:576px) {
     .photo {
-        max-width: 420px
+        max-width: 440px
     }
 }
 
 @media (min-width:768px) {
     .photo {
-        max-width: 480px
+        max-width: 620px
     }
 }
 
 @media (min-width:992px) {
     .photo {
-        max-width: 520px
+        max-width: 760px
     }
 }
 
 @media (min-width: 1200px) {
     .photo {
-        max-width: 640px
+        max-width: 900px
     }
 }
 
@@ -10565,7 +10563,6 @@ a.text-dark:hover {
 .second-nav{
 	display:inline-flex;
 	list-style:none;
-	padding-top:4px;
 }
 
 .nav-item .second-nav-link{
@@ -10580,4 +10577,12 @@ a.text-dark:hover {
 
 .second-nav .active{
 	color:#58626b;
+}
+
+.active .line{
+	width: 30px;
+    height: 8px;
+    border-bottom: 1px solid #E40065;
+    text-align: center;
+    margin: auto;
 }
