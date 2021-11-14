@@ -8,7 +8,8 @@ window.onload=function()
 	//獲取img標籤中的第一個元素結點
 	var img=document.getElementsByTagName("img")[0];
 	//建立一個數組用來儲存圖片的路徑（即src屬性）
-	var imgarr=["../assets/image/Travel/Fukui, Japan, 2012_01.JPG",
+	var imgarr=["../assets/image/Travel/Shiga, Japan, 2012.JPG",
+	"../assets/image/Travel/Fukui, Japan, 2012_01.JPG",
 	"../assets/image/Travel/Fukui, Japan, 2012_02.JPG",
 	"../assets/image/Travel/Beijing, China, 2013.JPG",
 	"../assets/image/Travel/Guangzhou, China, 2012_01.JPG",
@@ -27,7 +28,8 @@ window.onload=function()
 	"../assets/image/Travel/Tongxiang, Zhejiang, China, 2012.JPG"
 	];
 	//建立圖片描述陣列
-	var photext=["Fukui, Japan, 2012",
+	var photext=["Shiga, Japan, 2012",
+	"Fukui, Japan, 2012",
 	"Fukui, Japan, 2012",
 	"Beijing, China, 2013",
 	"Guangzhou, China, 2012",
